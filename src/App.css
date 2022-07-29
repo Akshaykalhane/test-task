@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.form-container{
+    width: 100%;
+    background-color: #f3f3f3;
+    padding: 50px;
+    margin: auto;
+}
+
+.date-sec{
+    width: 100%;
+    /* border: 1px solid red; */
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.date-sec > label{
+    margin-right: 100px;
+    font-size: 18px;
+}
+.date-sec > input{
+    padding: 8px;
+    border: 1px solid silver;
+    border-radius: 3px;
+    font-size: 16px;
+}
+.req{
+    color: red;
+}
+.amount-div{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.amount-div > label{
+    font-size: 18px;
+    margin-right: 78px;
+}
+.amount-div > input{
+    width: 50%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid silver;
+    border-radius: 3px;
+}
+.payment-mode{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.payment-mode > label{
+    margin-right: 20px;
+}
+.payment-mode > select{
+    width: 40%;
+    padding: 8px;
+    border: 1px solid silver;
+    border-radius: 3px;
+    font-size: 16px;
+    outline: none;
+}
+.remark{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.remark > label{
+    margin-right: 30px;
+}
+.remark > input{
+    width: 50%;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid silver;
+}
+label{
+    font-size: 18px;
+}
+input{
+    outline: none;
+}
+
+input:focus{
+    border: 1px solid rgb(75, 209, 243);
+}
+select:focus{
+    border: 1px solid rgb(75, 209, 243);
+}
+
+.btn-div{
+    width: 40%;
+    margin: auto;
+    position: relative;
+   margin-right: 173px;
+   margin-top: 20px;
+   /* border: 2px solid red; */
+   padding: 10px;
+}
+.btn-div > button{
+    width: 80px;
+    padding: 7px;
+    font-size: 15px;
+    border: none;
+}
+.cancel-btn{
+    color: red;
+    box-shadow: 0px 0px 2px red;
+    border-radius: 3px;
+    margin-right: 30px;
+    background-color: #fff;
+}
+.submit-btn{
+    color: #fff;
+    background-color: rgb(12, 112, 12);
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px rgb(12, 112, 12);
+}
+
+.receipt-container{
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+
+}
+.bill{
+    min-width: 500px;
+    padding: 20px;
+    font-size: 16px;
+    color: rgb(30, 30, 30);
+    /* box-shadow: 0px 0px 2px black; */
+    border-bottom: 1px solid silver;
+    border-radius: 4px;
+}
+.bill > p{
+    margin-top: 10px;
+    text-transform: capitalize;
+}
